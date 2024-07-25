@@ -1,0 +1,25 @@
+.question {
+    margin-bottom: 20px;
+  }
+  
+  .optionButton {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #4facfe;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .optionButton:hover {
+    transform: scale(1.05);
+    background-color: #f0f8ff;
+  }
+  
+  .optionButton.selected {
+    background-color: #4facfe;
+    color: white;
+  }
+  
+  

@@ -1,0 +1,35 @@
+css
+.container {
+  padding: 20px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.submitButton:hover {
+  transform: scale(1.1);
+  background-color: #00c6ff;
+}
+
+.submitButton:active {
+  transform: scale(0.9);
+}
